@@ -1,3 +1,3 @@
 # dotfiles
-just saving my arch config here
+just saving my i3 wm config here
 nothing interesting
