@@ -1,8 +1,9 @@
 # dotfiles
-Simply saving my i3wm config here—nothing interesting.
+Simply saving my config here—nothing interesting.
 
 # My setup Requirements
 * any Linux Distro, I prefer Arch
+* i3wm
 * Alacritty
 * Internet Connection
 * Text Editors?, a long personal war, but now only vim vscode
