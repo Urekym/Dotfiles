@@ -5,7 +5,7 @@ Simply saving my i3wm config here—nothing interesting.
 * any Linux Distro, I prefer Arch
 * Alacritty
 * Internet Connection
-* Vim
+* Vim, Neovim
 * Minecraft, some MMORPG game if i can.
 
 
