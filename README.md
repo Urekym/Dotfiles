@@ -2,7 +2,7 @@
 Simply saving my config here—nothing interesting.
 
 # My setup Requirements
-* any Linux Distro, I prefer Arch
+* any linux distro, I prefer Arch
 * i3wm
 * Alacritty
 * Internet Connection
