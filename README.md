@@ -6,7 +6,7 @@ Simply saving my config here—nothing interesting.
 * i3wm
 * Alacritty
 * Internet Connection
-* Text Editors?, a long personal war, but now only vim,vscode
+* Text Editors?, a long personal war, but now i'm comfortable with Vim
 * Minecraft, some MMORPG game if i can.
 
 
