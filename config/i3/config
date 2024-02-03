@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Ubuntu Regular 8
+font pango:ubuntu 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -51,6 +51,9 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec alacritty
 
+# start thunar
+bindsym $mod+t exec thunar
+
 # kill focused window
 bindsym $mod+Shift+a kill
 
@@ -61,13 +64,6 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
-
-
-
-#thunar
-bindsym $mod+t exec --no-startup-id thunar
-
-
 
 # change focus
 bindsym $mod+j focus left
@@ -190,39 +186,29 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-
-#remove borders and titles
-for_window [class="^.*"] border pixel 0
-
-
-
-
-
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-
 bar {
-status_command i3status
+        status_command i3status
 }
 
-# Enable gaps
-gaps inner 3
 
-# Set the outer gaps (optional)
-#gaps outer 0
+# Border style
+default_border pixel 0
+default_floating_border pixel 
+
+# Set gaps
+gaps inner 2
+gaps outer 2
+
+# Adjust brightness using brightnessctl 
+# Installation sudo pacman -S brightnessctl
+
+bindsym XF86MonBrightnessUp exec brightnessctl s +5%
+bindsym XF86MonBrightnessDown exec brightnessctl s 5%-
 
 
-
-exec_always --no-startup-id feh --bg-fill /home/urekym/backgrounds/nord.jpg
-
-
-
-# Autostart picom when starting the i3 window manager
-exec_always --no-startup-id picom -b
 
 
 #i3lock
 bindsym $mod+Ctrl+l exec --no-startup-id i3lock -c 000000
-
-
-
