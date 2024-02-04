@@ -1,13 +1,12 @@
 # dotfiles
-Simply saving my config here—nothing interesting.
+simply saving my config here—nothing interesting.
 
 # My setup Requirements
-* any linux distro, I prefer Arch
+* any linux distro, i prefer Arch, Debian
 * i3wm
-* Alacritty
 * Internet Connection
-* Text Editors?, a long personal war, but now i'm comfortable with Vim
-* Minecraft, some MMORPG game if i can.
+* Text Editors?, a long personal conflict, but now i'm comfortable with vscode, vim for quick edit
+* Minecraft, some MMORPG game if i can
 
 
 # Desktop environment
